@@ -2,8 +2,14 @@
 
 using namespace std;
 
+//variables globales y macros
+#define TAM (int)10
+
 int main()
 {
-    cout << "Hello World!" << endl;
+    char a[TAM] = "AB11CD44";
+    for(int i=0; i<TAM; i++){
+        cout << a[i] << endl;
+    }
     return 0;
 }
